@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@plugin 'tailwind-scrollbar' {
+  preferredstrategy: "pseudoelements";
+}
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+/* --color-mainbg: oklch(95.4% 0.038 75.164); */
+@theme {
+  --color-mainbg: oklch(98% 0.016 73.684);
+  --color-header: #ef9c66;
+  --color-background: #fcdc94;
+  --color-primary: #c8cfa0;
+  --color-secondary: #78aba8;
+  --color-border: oklch(44.6% 0.043 257.281);
+  --color-hover: oklch(70.7% 0.165 254.624);
+}
+
+/* {
+  bg-bg = #EF9C66 ;
+  bg-sbg = #FCDC94 ;
+  bg-tbg = #C8CFA0;
+  bg-fbg = #78ABA8;
+} */
